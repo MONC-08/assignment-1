@@ -5,8 +5,12 @@
 }
 
 .top-banner {
-    height: 90vh;
-    background-color: black;
+    height: 87vh;
+    background-image: url(./images/donation12.png);
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-size: 100% 100%;
+    opacity: .8;
 }
 
 .title {
@@ -18,15 +22,8 @@
 
 .title h1 {
     font-size: 65px;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 60px;
-}
-
-.donate-btn {
-    padding: 16px 12px;
-    background-color: #FF5959;
-    color: white;
-    border-radius: 5px;
 }
 
 .donate-today {
@@ -38,7 +35,7 @@
 }
 
 .donation-part {
-    margin-top: 40px;
+    margin: 40px 0 40px 0;
     display: flex;
     justify-content: center;
 }
@@ -56,4 +53,104 @@
 
 .current-box {
     border: 1px solid tomato;
+}
+
+.optional {
+    margin-bottom: 70px;
+    text-align: center;
+    color: #B3B3B3;
+}
+
+.btn {
+    margin: 0 auto;
+    padding: 12px;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+/* hr {
+    width: 700px;
+    height: 5px;
+    color: #red;
+
+    text-align: center;
+} */
+.donation-plan {
+    margin-bottom: 70px;
+}
+
+.plan-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.package {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans {
+    width: 300px;
+    height: 250px;
+    margin-right: 40px;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.plans img {
+    width: 50px;
+    height: 50px;
+}
+
+.food {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+.shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.education {
+    background-color: #FFF4D6;
+}
+
+.update-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input {
+    height: 42px;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.subscribe-bar {
+    margin: 0 auto;
+    width: 45%;
+    height: 150px;
+    border-radius: 2px;
+    padding: 20px;
+    background-color: #FFF4D6;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 50px;
+    color: #D9DBE1;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+#humble {
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
 }
